@@ -23,6 +23,8 @@ body {
 
 .header {
     background-image: url(../Assets/img/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 698px;
 }
 
@@ -82,23 +84,36 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* header style st */
+
+/* action-section-style-st */
+
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 115px 0px;
+}
+
+
+.action-section-title {
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.action-section-pera {
+    color: #a3a5ae;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 23px 0px;
+}
+
+.action-section-inner-img img {
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+}
+
+
+/* action-section-style-end */
