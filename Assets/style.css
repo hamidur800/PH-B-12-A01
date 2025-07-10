@@ -280,6 +280,9 @@ body {
 
 /* Get-in-Touch-section-style-st */
 
+.Get-in-Touch-section-aling {
+    padding-bottom: 70px;
+}
 
 .Get-in-Touch-section {
     display: flex;
@@ -293,12 +296,58 @@ body {
     font-weight: bold;
 }
 
-label {
+.label-style {
     color: #000000;
     font-size: 18px;
     font-weight: 500;
 }
 
+
+.input-style {
+    margin: 10px auto;
+    height: 60px;
+    width: 410px;
+    border: 1px solid #D6DDED;
+    outline: none;
+    border-radius: 10px;
+}
+
+.input-style::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 30px;
+    
+}
+
+.textarea-style {
+    margin: 10px auto;
+    height: 100px;
+    width: 411px;
+    /* padding: 40px 120px; */
+    border: 1px solid #D6DDED;
+    outline: none;
+    border-radius: 10px;
+}
+
+textarea::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+
+.form-section-btns {
+    background-color: #4E47FF;
+    color: #ffffff;
+    padding: 15px 168px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
 
 
 /* Get-in-Touch-section-style-end */
