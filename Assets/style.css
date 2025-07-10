@@ -278,4 +278,32 @@ body {
 /* Ready-to-focus-section-style-end */
 
 
+/* Get-in-Touch-section-style-st */
+
+
+.Get-in-Touch-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Get-in-Touch {
+    color: #000000;
+    font-size: 97px;
+    font-weight: bold;
+}
+
+label {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+/* Get-in-Touch-section-style-end */
+
+
+
+
 
